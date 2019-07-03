@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  apicontagem-2-2:
+    image: apicontagem-sdk-2-2
+    build:
+      context: .
+    ports:
+      - "15000:80"
